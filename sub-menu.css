@@ -1,7 +1,0 @@
-/* Sub Menu */
-.moduletable_menu .nav-child{display:none;}
-.moduletable_menu .nav.menu > li.item-138:hover ul{display:block;background-color:rgba(0,0,255,.5); border:1px solid #376692;position: absolute;margin-top: 5px;width: 250px;z-index: 99;}
-.moduletable_menu .nav-child li a{padding: 10px 0px;display: block;border-bottom: none;}
-.moduletable_menu .nav-child li:not( :last-child ) > a {border-bottom: 1px solid #376692;}
-.moduletable_menu .nav-child li a:hover{color: #000000!important;background-color:rgba(255,255,255,0.8)!important;border-radius: 0!important;}
-.moduletable_menu .nav.menu li ul.nav-child.unstyled.small li a{text-transform: none!important;font-weight: 500px!important;}
