@@ -1,0 +1,50 @@
+/* Hover - Zoom Imagem */
+.bl.item .bl_img a {
+    display: block;
+    line-height: 0;
+    overflow: hidden;
+    position:relative;
+}
+.bl.item .bl_img a img {
+    transform: scale(1);
+    transition:1s;
+    width:100%;
+}
+.bl.item .bl_img a img:hover {
+    transform: scale(1.1);
+}
+
+/* Hover - Virar Página */
+.bl.item .virar_pagina{
+    -moz-transform:translateX(0);
+}
+.bl.item .virar_pagina:before{
+    content: '';
+    position: absolute;
+    top:0px;
+    right:0px;
+    width:0;
+    height:0;
+    background: -moz-linear-gradient(45deg, white 45%, #000 50%, #ccc 60%, white);
+    -moz-transition-duration:0.3s;
+}
+.bl.item .virar_pagina:hover:before{
+    width:35px;
+    height:35px;
+}
+
+/* Efeito Girar */
+.bl.item a {
+    display: block;
+    line-height: 0;
+}
+.bl.item a img {
+    border-radius:50%;
+    height: 160;
+    margin: 0;
+    transition: 1s;
+    width: 160px;
+}
+.bl.item a:hover img{
+    transform: rotateY(180deg) translateY(-20px);
+}
