@@ -1,8 +1,7 @@
 /* Videos Youtube */
 .vi_video{
     position:relative!important;
-    padding-bottom:53.3%!important;
-    padding-top:30px!important;
+    padding:12%!important;
     height:0!important;
     overflow: hidden!important;
 }
